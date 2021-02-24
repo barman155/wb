@@ -1,0 +1,317 @@
+{
+  "id": "2866febc-e567-46df-a39e-30d800d1d033",
+  "version": "2.0",
+  "name": "TestLink (Petrenko_D)",
+  "url": "https://www.wildberries.ru/",
+  "tests": [{
+    "id": "ab31b237-93b9-475a-b95b-cbaf30d13dc6",
+    "name": "Тест 1",
+    "commands": [{
+      "id": "26b29284-d8ec-471e-b391-ad57ef717081",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php?caller=login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc9d5fb2-24cb-4dc0-a07f-6dbfed15ae99",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "798x558",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a352b3bc-bba0-45ba-9d9f-e41be52bef79",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c96f80c-eeda-4462-943b-066d2aca60ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=#testspecification_topics > a:nth-child(1)",
+      "targets": [
+        ["linkText=Редактировать тесты", "linkText"],
+        ["css=#testspecification_topics > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Редактировать тесты')]", "xpath:link"],
+        ["xpath=//div[@id='testspecification_topics']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'lib/general/frmWorkArea.php?feature=editTc')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Редактировать тесты')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa573054-e4f8-4b72-920e-9a4a977d6d8d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6e91d7c-157b-41fb-a89d-12db094e9af0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extdd-6 > span",
+      "targets": [
+        ["css=#extdd-6 > span", "css:finder"],
+        ["xpath=//span[@id='extdd-6']/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96899b8b-5ab5-4afe-810a-03cf7f9b68fb",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "17313ffa-fa37-4d53-895b-faa049a6c022",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5e126d7-8ded-444b-ab34-087f1de7eb6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clickable:nth-child(2)",
+      "targets": [
+        ["css=.clickable:nth-child(2)", "css:finder"],
+        ["xpath=//img[@title='Действия']", "xpath:img"],
+        ["xpath=//img[@onclick=\"javascript:toogleShowHide('tsuite_control_panel');\"]", "xpath:attributes"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6af11c8d-e449-4c0f-8e58-d4c9d3484616",
+      "comment": "",
+      "command": "click",
+      "target": "id=create_tc",
+      "targets": [
+        ["id=create_tc", "id"],
+        ["name=create_tc", "name"],
+        ["css=#create_tc", "css:finder"],
+        ["xpath=//input[@id='create_tc']", "xpath:attributes"],
+        ["xpath=//div[@id='tsuite_control_panel']/fieldset[2]/form/input[6]", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/form/input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f75aff4-d2d2-4faf-b15a-97a32a2e8506",
+      "comment": "",
+      "command": "type",
+      "target": "css=#testcase_name",
+      "targets": [
+        ["id=testcase_name", "id"],
+        ["name=testcase_name", "name"],
+        ["css=#testcase_name", "css:finder"],
+        ["xpath=//input[@id='testcase_name']", "xpath:attributes"],
+        ["xpath=//form[@id='tc_new']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Тест1"
+    }, {
+      "id": "95366410-f718-46f2-b5a8-f1c3015a07ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=#do_create_button",
+      "targets": [
+        ["id=do_create_button", "id"],
+        ["name=do_create_button", "name"],
+        ["css=#do_create_button", "css:finder"],
+        ["xpath=//input[@id='do_create_button']", "xpath:attributes"],
+        ["xpath=//form[@id='tc_new']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7900cda-727e-4e9c-82e2-bf880d2f64f0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.title",
+      "targets": [
+        ["css=.title", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Тестовый пример')]", "xpath:innerText"]
+      ],
+      "value": "Тестовый пример"
+    }, {
+      "id": "4c74cfc1-f7fb-47cd-b5d3-f704dc135c36",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "fee3758d-9ad9-46ef-85e2-5dd5219d8537",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc4dc013-3f77-4b38-838a-5f36dcfbae41",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad1ccc22-8419-4571-9860-9780bd054e34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu_bar > a:nth-child(2) > img",
+      "targets": [
+        ["css=.menu_bar > a:nth-child(2) > img", "css:finder"],
+        ["xpath=//img[@title='Домой']", "xpath:img"],
+        ["xpath=//div[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efb070d2-9ee3-44f9-a7c7-e4df49fc5566",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e167dec4-f161-410e-a5c8-7af3fdab6c53",
+    "name": "WB",
+    "commands": [{
+      "id": "5703225d-5b10-4f56-88a4-4058793e4e81",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.wildberries.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "862d674a-a97f-4029-8d11-48fa9e3ff572",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd94eed2-388c-4820-84f9-db02d3821f8a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Частые вопросы",
+      "targets": [
+        ["linkText=Частые вопросы", "linkText"],
+        ["css=.faq-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Частые вопросы')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/services/voprosy-i-otvety')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Частые вопросы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d559df5-8dff-4f01-90ef-e89883a6e6ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.faq-menu-list:nth-child(3) > .j-faq-menu-item:nth-child(2) > span",
+      "targets": [
+        ["css=.faq-menu-list:nth-child(3) > .j-faq-menu-item:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='body-layout']/div/div/div/div[2]/div/div/ul[2]/li[2]/span", "xpath:idRelative"],
+        ["xpath=//ul[2]/li[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8935caf-d545-4b1a-b6c7-9b48e048d482",
+      "comment": "",
+      "command": "click",
+      "target": "css=#registration .faq-dropdown-item:nth-child(1) > .faq-dropdown-title",
+      "targets": [
+        ["css=#registration .faq-dropdown-item:nth-child(1) > .faq-dropdown-title", "css:finder"],
+        ["xpath=//div[@id='registration']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Как зарегистрироваться')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a2a9c61-3cf3-44bc-a67b-ffe1885c440f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.faq-dropdown-item > .selected",
+      "targets": [
+        ["css=.faq-dropdown-item > .selected", "css:finder"],
+        ["xpath=//div[@id='registration']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Как зарегистрироваться')]", "xpath:innerText"]
+      ],
+      "value": "Как зарегистрироваться?"
+    }, {
+      "id": "8dbc2d42-98da-4dfc-9db9-9a48bc2a2cca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.faq-menu-list:nth-child(3) > .j-faq-menu-item:nth-child(3) > span",
+      "targets": [
+        ["css=.faq-menu-list:nth-child(3) > .j-faq-menu-item:nth-child(3) > span", "css:finder"],
+        ["xpath=//div[@id='body-layout']/div/div/div/div[2]/div/div/ul[2]/li[3]/span", "xpath:idRelative"],
+        ["xpath=//li[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Оформление заказа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a188818-4c2d-47e1-8292-ef819ed316a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#order-registration .faq-dropdown-title",
+      "targets": [
+        ["css=#order-registration .faq-dropdown-title", "css:finder"],
+        ["xpath=//div[@id='order-registration']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Как оформить заказ на сайте')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88142006-439d-4cbc-a757-efbb7a9e1e79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-logo > img",
+      "targets": [
+        ["css=.header-logo > img", "css:finder"],
+        ["xpath=//img[@alt='Wildberries']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "769baf83-8b22-4ad2-a67c-3b3b94bccad8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "87abd68b-2d9f-49ca-9ae7-b214b8d8d2ea",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ab31b237-93b9-475a-b95b-cbaf30d13dc6"]
+  }],
+  "urls": ["http://testlink.it-online-school.ru/", "https://www.wildberries.ru/"],
+  "plugins": []
+}
